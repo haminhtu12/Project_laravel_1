@@ -6,7 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'App\\Admin_user' => $baseDir . '/app/Admin_user.php',
+    'App\\Admin_users' => $baseDir . '/app/Admin_user.php',
     'App\\Banners' => $baseDir . '/app/Banners.php',
     'App\\Category' => $baseDir . '/app/Category.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
@@ -30,8 +30,8 @@ return array(
     'App\\Http\\Middleware\\TrustProxies' => $baseDir . '/app/Http/Middleware/TrustProxies.php',
     'App\\Http\\Middleware\\VerifyCsrfToken' => $baseDir . '/app/Http/Middleware/VerifyCsrfToken.php',
     'App\\News' => $baseDir . '/app/News.php',
-    'App\\Order' => $baseDir . '/app/Order.php',
-    'App\\Orders' => $baseDir . '/app/Orders.php',
+    'App\\Oders' => $baseDir . '/app/Order.php',
+    'App\\Oders_detail' => $baseDir . '/app/Orders.php',
     'App\\Pro_details' => $baseDir . '/app/Pro_details.php',
     'App\\Products' => $baseDir . '/app/Products.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',

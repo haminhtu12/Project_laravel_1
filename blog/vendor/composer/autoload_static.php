@@ -460,7 +460,7 @@ class ComposerStaticInit600dab706c7e486417e320f08c8ab7be
     );
 
     public static $classMap = array (
-        'App\\Admin_user' => __DIR__ . '/../..' . '/app/Admin_user.php',
+        'App\\Admin_users' => __DIR__ . '/../..' . '/app/Admin_user.php',
         'App\\Banners' => __DIR__ . '/../..' . '/app/Banners.php',
         'App\\Category' => __DIR__ . '/../..' . '/app/Category.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
@@ -484,8 +484,8 @@ class ComposerStaticInit600dab706c7e486417e320f08c8ab7be
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\News' => __DIR__ . '/../..' . '/app/News.php',
-        'App\\Order' => __DIR__ . '/../..' . '/app/Order.php',
-        'App\\Orders' => __DIR__ . '/../..' . '/app/Orders.php',
+        'App\\Oders' => __DIR__ . '/../..' . '/app/Order.php',
+        'App\\Oders_detail' => __DIR__ . '/../..' . '/app/Orders.php',
         'App\\Pro_details' => __DIR__ . '/../..' . '/app/Pro_details.php',
         'App\\Products' => __DIR__ . '/../..' . '/app/Products.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
